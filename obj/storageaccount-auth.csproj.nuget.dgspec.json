@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bcarvalho/Projects/upwork/azure-expert/storageaccount-auth/storageaccount-auth/storageaccount-auth.csproj": {}
+  },
+  "projects": {
+    "/Users/bcarvalho/Projects/upwork/azure-expert/storageaccount-auth/storageaccount-auth/storageaccount-auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bcarvalho/Projects/upwork/azure-expert/storageaccount-auth/storageaccount-auth/storageaccount-auth.csproj",
+        "projectName": "storageaccount-auth",
+        "projectPath": "/Users/bcarvalho/Projects/upwork/azure-expert/storageaccount-auth/storageaccount-auth/storageaccount-auth.csproj",
+        "packagesPath": "/Users/bcarvalho/.nuget/packages/",
+        "outputPath": "/Users/bcarvalho/Projects/upwork/azure-expert/storageaccount-auth/storageaccount-auth/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bcarvalho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Azure.Storage": {
+              "target": "Package",
+              "version": "[0.1.3, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.6.0, )"
+            },
+            "Azure.Storage.Blobs.Models": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System": {
+              "target": "Package",
+              "version": "[4.1.311.2, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
